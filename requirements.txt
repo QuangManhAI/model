@@ -13,3 +13,4 @@ tqdm
 thop
 matplotlib
 uvicorn
+fastapi
