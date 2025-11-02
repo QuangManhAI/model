@@ -12,3 +12,4 @@ PyYAML
 tqdm
 thop
 matplotlib
+uvicorn
