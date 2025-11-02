@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y ffmpeg libsm6 libxext6 git && rm -rf /v
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY src ./src
+COPY src/internal_assets/weights/v11_l.pt /app/src/weights/v11_l.pt
 WORKDIR /app/src
 RUN mkdir -p weights utils
 ENV PORT=9100
