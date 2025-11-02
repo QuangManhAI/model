@@ -15,3 +15,4 @@ matplotlib
 uvicorn
 fastapi
 pydantic
+python-dotenv
