@@ -1,13 +1,9 @@
-# PyTorch CPU-only (nhẹ, tương thích Railway)
 torch==2.3.0+cpu
 torchvision==0.18.0+cpu
 torchaudio==2.3.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-# Nhẹ hơn opencv-python (không GUI)
 opencv-python-headless
-
-# Thư viện phụ trợ
 PyYAML
 tqdm
 thop
