@@ -14,7 +14,7 @@ nets.nn = nn
 sys.modules["nets"] = nets
 sys.modules["nets.nn"] = nn
 
-torch.serialization.add_safe_globals([nn.YOLO])
+# torch.serialization.add_safe_globals([nn.YOLO])
 
 
 WEIGHT_DIR = os.getenv("WEIGHT_PATH", "./weights")
